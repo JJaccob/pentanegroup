@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pentanegroup</title>
+    <link rel="stylesheet"href="style/css.css?V=<?php echo time();?>">
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+        <h1 id="heading">PENTANE GROUP</h1>
+            <h3 id="h3">data experts...and more!</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="order.html">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div id="logo">
+                <img src="pics/logo.JPG">
+            </div>
+        </div>
+        </nav>
+    <!--end of navbar-->
+    
+    <aside class="aside">
+        <h3>Send Us a Request</h3>
+    <form action="order.php"method="POST">
+            <input type="text"placeholder="Name"name="name"required><br>
+            <input type="text"placeholder="Email"name="name"required><br>
+            <input type="text"placeholder="Your position i.e CEO"name="name"required><br>
+            <input type="number"placeholder="Phone Number"name="phone"required><br>
+            <select name="type">
+                <option value="Data">Data Analysis</option>
+                <option value="Partnerships">Partnerships Request</option>
+                <option value="Tax">Tax Consultancy</option>
+                <option value="Database">Database Management</option>
+                <option value="Web Design">Web Design Development</option>
+                <option value="Marketing Analytics">Marketing Analytics</option>
+            </select><br>
+            <input type="text"placeholder="Tell us more about your request"name="more"required><br>
+            <input type="submit"value="Send"name="btn-order">
+     </form>
+    </aside>
+
+        <section class="section-services">
+            <div>
+                <br><br>
+                <h1>OUR SERVICES</h1>
+            </div>
+            <br><br><br>
+            <br><br><br>
+         <div class="data">
+             <div id="dataring">
+                <img src="pics/datascience.jpeg">
+             </div>
+             <div id="datarings">
+                <h3>Data Analytics</h3>
+            <p>Pentane Group is a team of data analysts who use latest programming and statistical 
+                tools to analyse datasets, providing statistical analysis
+                and machine learning services to unravel Big Data, Analytics and Business Intelligence.<br>
+                We inspect, clean, transform, and model your data with the goal of discovering useful information,
+                that will inform your conclusions and decision-making.
+                Data generation has raised the concern of huge data without meaning or use.
+                And in the current world where knowledge and explanations are extensive, you cannot afford to make decisions
+                without data and/or evidence backing. And that’s where we make sense….by making sense of your data!
+                </p>
+             </div>
+         </div>
+         <br>
+            <div id="business">
+                <div id="biz">
+                    <img src="pics/partnership.jpeg">
+                </div>
+                <div id="bizy">
+                    <h3>Business Partnerships</h3>
+                    <p>We take advantage of our multi-disciplinary customer base to connect like-minded individuals, SMEs,
+                        large organizations and corporates both locally and internationally. We connect the 7 continents of the world by
+                        linking similar ideas, dreams, visions, and/or complimentaries.<br>
+                        We want you to save on travel costs on expeditionary trips. Perhaps you want to do a feasibility study 
+                        on a specific area of your business abroad but the budget is tight... or maybe you are just looking for a business partner 
+                        to work/partner with.<br>
+                        We don't want you to invest in trips to nowhere 
+                        when we can give you first-hand information before you make a move.</p>
+                </div>
+            </div>
+            <br>
+            <div id="tax">
+                <div id="taxing">
+                    <img src="pics/tax.jpg">
+                </div>
+                <div id="taxes">
+                    <h3>Tax Consultancy</h3>
+                    <p>Tax avoidance and tax evasion are not avoidable without the right tax accounting and advisory services.
+                        Ignorance is not an excuse in a court of law...and taxation laws keep changing.
+                        We will help you evade tax evation, and ensure you're tax compliant. Avoid being entangled in 
+                        taxation battles and legal debts, and don't forget the costly cost of legal services!<br>
+                        We have very experienced taxation lawyers and specilaists that will ensure compliance!<br>
+                        Avoid a mistake that brings multi-nationals down crumbling!
+                        </p>
+                </div>
+            </div>
+            <br>            
+            <div id="database">
+                <div id="dbase">
+                    <img src="pics/database.jpeg">
+                </div>
+                <div id="dbases">
+                    <h3>Database Design & Hosting</h3>
+                <p>Data is a key component of any organization, whether small or large, start-up, SME or multi-national. 
+                    Data forms a key part of a company's organization, decision-making and ultimately growth.<br>
+                    So let us deal with data as you focus on other areas of your organization.                    
+                    We are experts in data-design, development and data hosting.<br>
+                    We adhere to the highest standards and protocols when it comes to data security and safety.<br>
+                    So, let us host your terabytes of critical data; safely and reliably.</p>
+                </div>
+            </div>
+            <br>
+            <div id="marketing">
+                <div id="market">
+                    <img src="pics/marketing.jpg">
+                </div>
+                <div id="markets">
+                    <h3>Marketing Analytics & Feasibility Studies</h3>
+                <p>We provide multi-platform, cost-effective marketing, marketing
+                    alytics and feasibility studies so you can invest wisely.<br>
+                    We use an elaborate set of software, hardware, knowledge and experience to audit and make
+                    recommendations on your marketing investments and their returns.<br>
+                    We thus help you determine the effectiveness of your marketing campaigns that enables you to reconfigure marketing
+                    strategies, investments and staffing parameters.<br>
+                    Try us...for the sure bet, and best returns on investment.</p>
+                </div>
+            </div>
+        </section>
+        <!--for decoration-->
+    <footer>
+        <br>
+        <h3 id="footer">Pentane Group &copy;2022</h3>
+    </footer>
+</body>
+</html>
